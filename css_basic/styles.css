@@ -1,0 +1,79 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Navigation Bar */
+header {
+    background-color: #0056b3; /* Blue background */
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Golden hover effect */
+}
+
+/* Logo Styling */
+nav ul li.logo {
+    font-size: 24px; /* Larger size for logo */
+    font-weight: bold;
+    color: #ffd700; /* Golden color for logo */
+    margin-right: auto; /* Push navigation links to the right */
+}
+
+/* Section Styling */
+section {
+    margin: 20px;
+}
+
+/* Project Section Styling */
+.project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
+.project a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
