@@ -1,0 +1,427 @@
+*{
+   margin: 0; 
+   padding: 0;
+   box-sizing: content-box;
+}
+
+html, body {
+    height: 800px;
+    font-family: HelSource-Sans-Pro, sans-serif;
+}
+
+body {
+    background: 
+      url('images/headphones_hero_1.jpg') no-repeat top center;
+  background-size: cover; 
+  background-attachment: scroll; 
+  background-repeat: no-repeat; 
+  color: #ffffff;
+  min-height: 100vh; 
+}  
+  
+  /* Header */
+  header {
+    padding: 20px; 
+    gap: 0px;
+    font:Source Sans Pro
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header nav img {
+    size-adjust: 200.61px;
+    height: 35.02px;
+    margin-left: 171.59px; 
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 41px;
+    margin-right: 171.59px; 
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size: 15px;
+  }
+  
+  header nav ul li a:hover {
+    color: #FF6565;
+  }
+  
+/* Main Section Styling */
+main {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    text-align: center; 
+    padding: 20px; 
+    box-sizing: border-box;
+  }
+
+main section h1,
+main section span {
+  margin: 0; 
+  padding: 0; 
+}
+
+main section button,
+main section p {
+  margin: initial; 
+  padding: initial; 
+}
+
+  /* Section Styling */
+  main section {
+    max-width: 600px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+  }
+  
+ /* Heading Styling */
+main section h1 {
+    font-size: 32px; 
+    font-weight: bold; 
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    margin: 0; 
+    margin-top: 200px
+  }  
+
+  /* Subtitle Styling */
+  main section span {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-top: -20px;
+    margin-bottom: 40px;
+  }
+  
+  /* Button Styling */
+  main section button {
+    background-color: #FF6565; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 14px; 
+    font-weight: bold;
+    border-radius: 3px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    margin-bottom: 65px;
+    border-radius: 22px;
+  }
+  
+  main section button:hover {
+    background-color: #A052D4; 
+  }
+  
+  /* Paragraph Styling */
+  main section p {
+    font-size: 1rem; 
+    line-height: 1.5; 
+    color: #ffffff; 
+    margin: 0; 
+  }
+  
+/* Section Styling */
+.section-3 {
+    margin-top: 20px;
+    text-align: center; 
+    padding: 105px; 
+    background-color: rgb(255, 255, 255); 
+    box-sizing: 800px;
+  }
+  
+  /* Heading Styling */
+  .section-3 h2 {
+    font-size: 2rem; 
+    margin-bottom: 70px; 
+    color: #000;
+  }
+  
+  /* Paragraph Styling */
+  .section-3 p {
+    font-size: 16px;
+    margin-bottom: 80px; 
+    line-height: 1.5; 
+    color: #000;
+  }
+  
+  /* Tempor Container Styling */
+  .tempor-container {
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+  }
+  
+  /* Tempor Individual Item Styling */
+  .tempor {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    gap: 24px; 
+    border-radius: 20px;
+    padding: 15px;
+    max-width: 200px; 
+    flex-shrink: 0;
+  }
+  
+  /* Tempor Image Styling */
+  .tempor img {
+    width: 50px; 
+    height: 50px; 
+    object-fit: fit; 
+  }
+  
+  /* Tempor Text Styling */
+  .tempor h3 {
+    font-size: 18px; 
+    margin: 0; 
+    color: #000;
+    padding-bottom: 13px;
+  }
+  
+  .tempor p {
+    font-size: 14px;
+    margin: 0; 
+    line-height: 1.5; 
+    color: #000;
+  }
+  
+  /* Section Styling */
+  html, optgroup {
+    height: 800px;
+    font-family: HelSource-Sans-Pro, sans-serif;
+}
+
+/* Styling for the section */
+.ipsum {
+  position: relative;
+  background-image: url('images/headphones_hero_2.jpg'); /* Background image */
+  background-size: cover;
+  height: 650px;
+  background-position: center;
+  padding: 50px 20px;
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.ipsum .text-content h2 {
+  font-size: 2rem;
+  margin-bottom: 52px;
+  margin-top: 170px;
+}
+
+/* Styling for text content */
+.ipsum .text-content p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 64px;
+}
+
+/* Styling for the image container */
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 76px; 
+  flex-wrap: wrap; 
+  margin-top: 80px;
+}
+
+.image-item {
+  position: relative;
+  width: 190px; 
+  height: 190px; 
+}
+
+.image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.text-overlay {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: Source-Sans-Pro, sans-serif;
+  text-align: center;
+}
+
+.text-overlay h1 {
+  font-size: 46px; 
+  font-weight: bold; 
+  margin: 20px; 
+}
+
+.text-overlay p {
+  font-size: 10px; 
+  margin: 0; 
+}
+
+/* General Section Styling */
+.contact-section {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  min-height: 612px; /* Full viewport height */
+}
+
+/* Contact Form Container */
+.contactform {
+  background: none;
+  padding: 40px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Form Headings */
+.contactform h1 {
+  font-size: 2rem;
+  margin-bottom: 56px;
+  margin-top: 120px;
+  color: #333;
+}
+
+/* Form Fields */
+.formDiv {
+  margin-bottom: 20px;
+}
+
+.formDiv input,
+.formDiv textarea {
+  width: 100%; /* Full width input */
+  border: none; /* Remove borders */
+  border-bottom: 2px solid #ccc; /* Bottom line */
+  padding: 10px 0; /* Add space above and below text */
+  font-size: 1rem;
+  color: #000000;
+  background-color: transparent; /* Transparent background */
+  outline: none; /* Remove focus outline */
+  transition: border-color 0.3s ease; /* Smooth transition for focus effect */
+}
+
+.formDiv input::placeholder,
+.formDiv textarea::placeholder {
+  color: #000000; /* Lighter placeholder text */
+  font-size: 1rem;
+}
+
+.formDiv input:focus,
+.formDiv textarea:focus {
+  border-bottom-color: #007BFF; /* Change bottom line color on focus */
+}
+
+/* Textarea */
+textarea {
+  resize: none; /* Disable resize */
+  height: 100px; /* Fixed height for message field */
+}
+
+/* Button Styling */
+.btn2 button {
+  width: 100%;
+  padding: 10px 3px;
+  font-size: 16;
+  color: white;
+  background-color: #FF6565; /* Primary blue */
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn2 button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Footer Section */
+footer {
+  background-color: #002147; /* Dark blue background */
+  height: 249px; /* Set the height of the footer */
+  color: #fff; /* White text for contrast */
+  
+  
+}
+
+.section6 {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.logoicons {
+  display: flex;
+  justify-content: space-between; /* Push logo and icons to opposite ends */
+  width: 85%; /* Make the section span the full width */
+  max-width: 1200px; /* Limit the width of the footer content */
+  padding-top: 110px;
+}
+
+.logofooter img {
+  height: 32px; /* Adjust logo size */
+  width: auto; /* Maintain aspect ratio */
+  left: 190;
+  
+}
+
+.icons {
+  display: flex;
+  gap: 15px; /* Space between icons */
+  padding-bottom: 60px;
+}
+
+.icons i {
+  font-size: 1.5rem; /* Adjust icon size */
+  color: #fff; /* White icons */
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.icons i:hover {
+  color: #007BFF; /* Light blue on hover */
+}
+
+.sec6 {
+  margin-top: px; /* Add space above the text */
+  text-align: center; /* Center-align the text */
+}
+
+.sec6 p {
+  font-size: 12px; /* Adjust font size */
+  opacity: 35.17%; /* Subtle text */
+}
+
+@media (max-width: 768px) {
+  .logoicons {
+    flex-direction: column; /* Stack logo and icons vertically */
+    align-items: center; /* Center-align on smaller screens */
+  }
+
+  .icons {
+    margin-top: 15px; /* Add space above icons when stacked */
+  }
+}

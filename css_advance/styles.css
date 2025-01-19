@@ -1,0 +1,251 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Source Sans Pro, sans-serif;
+}
+
+/* Background Styling */
+body {
+  background: 
+      linear-gradient(
+          180deg, 
+          rgba(0, 0, 0, 0.5) 0%, /* Gradient starts at the top */
+          rgba(7, 22, 41, 1) 100% /* Gradient ends at the bottom */
+      ),
+      url('assets/images/Object.png') no-repeat top center;
+  background-size: cover; /* Ensures the image and gradient fill the entire area */
+  background-attachment: scroll; /* Background moves with scroll */
+  background-repeat: no-repeat; /* Prevents repetition of the image */
+  color: #ffffff;
+  min-height: 100vh; /* Ensures full viewport height */
+}
+
+main, .instructor-container {
+  position: relative;
+  z-index: 1; /* Ensures content appears above the background */
+  background: transparent; /* Keeps these sections transparent */
+}
+
+main {
+  position: relative; /* Keeps sections properly positioned */
+  z-index: 1; /* Ensures content is above the background */
+}
+
+.instructor-container {
+  position: relative; /* Inherits scrolling properties from the body */
+  z-index: 1; /* Ensures it appears above the background */
+  background: transparent; /* No separate background here */
+  padding: 20px 0;
+}
+
+
+/* Header */
+header {
+  padding: 20px; 
+  gap: 0px;
+  font:Source Sans Pro
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav img {
+  height: 35.02px;
+  margin-left: 171.59px; /* Added px to the margin-left value */
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-right: 171.59px; /* Added margin-right to align the menu */
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #00BFFF;
+}
+
+/* Main Section */
+main {
+  padding: 40px;
+  margin-top: 150px; /* Added margin-top to align the main section */
+}
+
+/* Section 1: Hero Section */
+main section:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+main section:nth-of-type(1) h1 {
+  font-size: 120px;
+  font-weight: bold;
+  margin-bottom: px;
+}
+
+main section:nth-of-type(1) span {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  word-spacing: 52px;
+}
+
+main section:nth-of-type(1) button {
+  padding: 10px 20px;
+  background: #C271FF;
+  color: #ffffff;
+  drop box-shadow: #000000 50%;
+  border: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  
+}
+
+main section:nth-of-type(1) button:hover {
+  background: #0080FF;
+}
+
+main section {
+  margin-bottom: 30px;
+}
+
+
+/* Instructor Section */
+.instructor-container {
+  display: flex;
+  gap: 10px; /* Space between instructors */
+  justify-content: center; /* Center horizontally */
+  flex-wrap: nowrap; /* Prevent wrapping */
+  overflow-x: auto; /* Add horizontal scrolling for smaller screens */
+  padding: 30px 0;
+}
+
+.instructor {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  text-align: center;
+  border-radius: 20px;
+  padding: 15px;
+  max-width: 200px; /* Optional: Set a width limit for uniformity */
+  flex-shrink: 0; /* Prevent shrinking in horizontal layout */
+}
+
+.instructor img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.instructor h3 {
+  margin: 10px 0 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.instructor p {
+  font-size: 0.9rem;
+  color: #cccccc;
+}
+
+.instructor-container::-webkit-scrollbar {
+  display: none;
+}
+.instructor-container {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrollbars */
+}
+
+/* Section Styling */
+.section-smile {
+  background-color: #ffffff; /* Set the background to white */
+  padding: 20px; /* Add some padding */
+  box-sizing: border-box; /* Include padding in dimensions */
+}
+
+/* Heading Styling */
+.section-smile h2 {
+  font-size: 2rem; /* Adjust font size */
+  margin-bottom: 20px; /* Add spacing below the heading */
+  text-align: center; /* Center align the heading */
+}
+
+/* Tutorial Items Styling */
+.section-smile div {
+  display: grid; /* Use grid for layout */
+  grid-template-columns: repeat(4, 1fr); /* Create 4 equal-width columns */
+  gap: 20px; /* Add spacing between items */
+  justify-items: center; /* Center items horizontally */
+  align-items: start; /* Align items to the top */
+}
+
+/* Individual Item Styling */
+.section-smile div > div {
+  text-align: center; /* Center-align content within each column */
+  max-width: 200px; /* Limit width for better layout */
+}
+
+/* Image Styling */
+.section-smile div img {
+  width: 100%; /* Set the image to fill the available width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Slightly round the corners */
+  margin-bottom: 10px; /* Add spacing below the image */
+}
+
+/* Text Styling */
+.section-smile h3 {
+  font-size: 1.2rem; /* Adjust font size */
+  margin: 10px 0; /* Add margin for spacing */
+}
+
+.section-smile p {
+  font-size: 1rem; /* Adjust font size */
+  margin: 5px 0; /* Add spacing */
+}
+
+/* Star Rating Styling */
+.section-smile div div div {
+  display: flex; /* Display stars inline */
+  gap: 5px; /* Add spacing between stars */
+  justify-content: center; /* Center-align stars */
+}
